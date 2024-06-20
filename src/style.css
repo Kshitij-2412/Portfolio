@@ -12,8 +12,9 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  
 }
-
+/*  */
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -62,8 +63,8 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
+  background: rgba(178, 121, 216, 0.959);
 }
 
 /* Handle on hover */
