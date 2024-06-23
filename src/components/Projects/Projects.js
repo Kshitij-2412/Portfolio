@@ -2,13 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import documentVerify from "../../Assets/Projects/documentVerify.jpg";
+import connectify from "../../Assets/Projects/connectify.png";
+import xcrypto from "../../Assets/Projects/crypto.png";
+import goldsgym from "../../Assets/Projects/golds-gym.png";
+import moviesland from "../../Assets/Projects/moviesLand.png";
+
 
 function Projects() {
   return (
@@ -24,56 +23,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={xcrypto}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Xcrypto"
+              description="This project is a high-performance, React-based cryptocurrency tracking platform that offers real-time Bitcoin price updates across multiple currencies.  
+              The application integrates third-party APIs to provide comprehensive, data-driven insights for investors, combining cutting-edge web technologies with financial market data to deliver a responsive and informative user experience."
+              ghLink="https://github.com/Kshitij-2412/Cryptocurrency-Price-Tracking-and-Charting-"
+              demoLink="https://cryptocurrency-price-tracking-and-charting.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={connectify}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Connectify"
+              description="Connectify is a MERN social media application. This platform features an intuitive, React-based user interface that enables seamless user interactions, including content sharing and engagement. The backend is powered by secure RESTful APIs, ensuring robust user management and data handling. A standout feature is the real-time chat functionality implemented using Socket.io, allowing instant communication between users and enhancing overall engagement on the platform."
+              ghLink="https://github.com/Kshitij-2412/connectify-socialMedia"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={goldsgym}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Gold's Gym"
+              description="Gold Gyms is a fitness guidance platform designed to support users in their wellness journey. The application offers a diverse range of exercises categorized by body parts, each accompanied by detailed tutorial videos. This user-friendly interface allows individuals to access a variety of workout routines and follow along with instructional content. By providing a comprehensive exercise library with visual guidance, Gold Gyms helps users explore different workouts and improve their fitness independently."
+              ghLink="https://goldfitnesscenter.netlify.app/"
               demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -81,13 +58,22 @@ function Projects() {
             <ProjectCard
               imgPath={documentVerify}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Document Verification and OCR system"
+              description="This Python-based project uses Convolutional Neural Network (CNN) classifiers and optical character recognition (OCR) to verify Indian identity documents like Aadhar Cards, PAN Cards, and Cheque Leaves. Integrated into a Flask application, the system employs custom CNN models for document authentication and OCR for data extraction. This combination streamlines document processing, enhancing accuracy and efficiency in verification workflows. The project showcases the practical application of deep learning in solving real-world document authentication challenges."
+              ghLink="https://github.com/Kshitij-2412/Document-Verification"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={moviesland}
+              isBlog={false}
+              title="Movies Land"
+              description="Movies Land is a dynamic movie search application that provides users with an extensive database of films. When a user inputs a search query, the platform efficiently retrieves and displays a comprehensive list of relevant movies. This streamlined search functionality enables movie enthusiasts to quickly find information about their favorite films or discover new ones, serving as a valuable resource for cinephiles and casual viewers alike."
+              demoLink="https://movies-land-chi.vercel.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
