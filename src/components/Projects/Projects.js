@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import documentVerify from "../../Assets/Projects/documentVerify.jpg";
 
 function Projects() {
   return (
@@ -78,7 +79,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={documentVerify}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
