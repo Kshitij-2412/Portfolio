@@ -49,8 +49,8 @@ function Projects() {
               isBlog={false}
               title="Gold's Gym"
               description="Gold Gyms is a fitness guidance platform designed to support users in their wellness journey. The application offers a diverse range of exercises categorized by body parts, each accompanied by detailed tutorial videos. This user-friendly interface allows individuals to access a variety of workout routines and follow along with instructional content. By providing a comprehensive exercise library with visual guidance, Gold Gyms helps users explore different workouts and improve their fitness independently."
-              ghLink="https://goldfitnesscenter.netlify.app/"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/Kshitij-2412/Golds_Gym"
+              demoLink="https://goldfitnesscenter.netlify.app/"              
             />
           </Col>
 
