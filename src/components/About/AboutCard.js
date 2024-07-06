@@ -21,7 +21,7 @@ function AboutCard() {
           </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful."{" "}
+            "True success blooms from the seeds of passion and perseverance. When you find joy in your journey, every step forward becomes a victory."{" "}
           </p>
           {/* <footer className="blockquote-footer">Kshitij</footer> */}
         </blockquote>
