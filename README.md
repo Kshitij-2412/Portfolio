@@ -4,8 +4,8 @@ Welcome to my portfolio website built with React.js!
 
 ## Overview
 
-This website serves as a showcase of my work, skills, and worl experience.
-It includes sections such as:
+This website serves as a showcase of my work, skills, and work experience.
+It includes following sections:
 
 - **About Me:** Brief introduction and professional background.
 - **Projects:** Projects I've worked on, with links to live demos or repositories.
