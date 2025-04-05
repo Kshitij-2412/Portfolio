@@ -7,7 +7,7 @@ import connectify from "../../Assets/Projects/connectify.png";
 import xcrypto from "../../Assets/Projects/crypto.png";
 import goldsgym from "../../Assets/Projects/golds-gym.png";
 import moviesland from "../../Assets/Projects/moviesLand.png";
-
+import docx_converter from "../../Assets/Projects/docx-converter.png";
 
 function Projects() {
   return (
@@ -30,6 +30,16 @@ function Projects() {
               The application integrates third-party APIs to provide comprehensive, data-driven insights for investors, combining cutting-edge web technologies with financial market data to deliver a responsive and informative user experience."
               ghLink="https://github.com/Kshitij-2412/Cryptocurrency-Price-Tracking-and-Charting-"
               demoLink="https://cryptocurrency-price-tracking-and-charting.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={docx_converter}
+              isBlog={false}
+              title="Docx Converter"
+              description="A robust microservices-based document conversion platform that converts DOCX files to PDF with optional password protection. Built with React frontend and Flask backend services, containerized with Docker for easy deployment."
+              ghLink="https://github.com/Kshitij-2412/word-to-pdf-converter"
             />
           </Col>
 
